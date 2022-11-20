@@ -5,6 +5,8 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   font-family: cursive;
   overflow-x: hidden;
@@ -85,6 +87,32 @@ h1 {
   color: black;
 }
 
+@media (max-width: 1280px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 880px) {
+  h1 {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 365px) {
+  h1 {
+    font-size: 20px;
+  }
+}
 /* 
 ###########################################################
 ###########################################################
